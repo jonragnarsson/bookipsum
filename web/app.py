@@ -4,7 +4,7 @@ import markovify
 from config import Config
 
 formvalues = {
-    'book': 'njala',
+    'book': 'ormstunga',
     'num': '3',
     'length': '250'
 }
@@ -31,13 +31,13 @@ class Markov:
 
 @app.route('/')
 @app.route('/<_book>')
-def index(_book='njala'):
+def index():
     paragraphs = []
     par_length = int(request.args.get('length', default=formvalues['length']))
     par_length = 800 if (par_length > 800) else par_length
     par_no = int(request.args.get('num', default=formvalues['num']))
     par_no = 20 if (par_no > 20) else par_no
-    _book = request.args.get('book') if (request.args.get('book') is not None) else _book
+    _book = request.args.get('book') if (request.args.get('book') is not None) else formvalues['book']
     formvalues['num'] = par_no
     formvalues['length'] = par_length
     formvalues['book'] = _book
