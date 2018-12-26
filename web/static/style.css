@@ -1,0 +1,70 @@
+body {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.popover {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn, .form-control {
+    border-radius: 2px;
+}
+
+.flag-icon {
+    opacity: 0.8;
+    width: 1.2em;
+    margin-right: 0.3em;
+}
+
+td.number{
+    text-align: right;
+    padding-right: 1em;
+}
+th.number {
+    text-align: right;
+    padding-right: 1em;
+}
+
+/* dark theme fixes */
+.badge {
+    color: #222;
+    font-size: 70%;
+    text-transform: uppercase;
+}
+.table-success, .table-info, .table-warning, .table-danger {
+    color: #fff;
+}
+.table-success, .table-success>th, .table-success>td {
+    background-color: #005947;
+}
+pre {
+    color: #fff;
+}
+.opa-40 {
+    opacity: 0.4;
+}
+.opa-60 {
+    opacity: 0.6;
+}
+
+.alert { color: #fff; }
+.alert-success{
+    background-color: #007356;
+    border-color: #003c2c;
+}
+.alert-danger {
+    background-color: #9c3227;
+    border-color: #862217;
+}
+.alert-info {
+    background-color: #206b9c;
+    border-color: #175a86;
+}
+.alert-warning {
+    background-color: #ab6e0f;
+    border-color: #885709;
+}
