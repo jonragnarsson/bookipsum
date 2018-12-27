@@ -31,7 +31,7 @@ class Markov:
 
 @app.route('/')
 @app.route('/<_book>')
-def index():
+def index(_book):
     paragraphs = []
     par_length = int(request.args.get('length', default=formvalues['length']))
     par_length = 800 if (par_length > 800) else par_length
