@@ -2,6 +2,7 @@ body {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 0;
     margin: 0;
+    color: #222222;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -39,12 +40,16 @@ input[type='number']{
 }
 button {
     background-color: #dddddd;
+    color: #222222;
     border-radius: 3px;
     border: 2px solid #c0c0c0;
     padding: 0.6em;
     margin: 0.4em;
 }
-
+input {
+	background-color: #dddddd;
+	color: #222222;
+}
 
 input[type='submit'] {
     margin-left: 4.6rem;
@@ -52,11 +57,14 @@ input[type='submit'] {
     padding: 0.6em;
     font-size: 120%;
     background-color: #dddddd;
+    color: #222222;
     border-radius: 3px;
 }
 select {
     font-size: 110%;
     border: 2px solid #c0c0c0;
+    background-color: #dddddd;
+    color: #222222;
 }
 label {
     display: inline-block;
