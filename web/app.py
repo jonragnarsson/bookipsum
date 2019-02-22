@@ -4,7 +4,7 @@ import markovify
 from config import Config
 
 formvalues = {
-    'book': 'ormstunga',
+    'book': 'njala',
     'num': '3',
     'length': '250'
 }
