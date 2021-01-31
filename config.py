@@ -16,7 +16,7 @@ class Config(object):
         },
         'pilturstulka': {
             'file': 'pilturogstulka.txt',
-            'title': 'Piltur og stúlka,
+            'title': 'Piltur og stúlka',
             'lang': 'is',
         },
         'sult': {
