@@ -11,23 +11,28 @@ class Config(object):
     texts = {
         'njala': {
             'file': 'njala.txt',
-            'title': 'Brennu-Njáls ipsum',
-            'lang': 'is',
-        },
-        'ormstunga': {
-            'file': 'ormstunga.txt',
-            'title': 'Gunnlaugs ipsum Ormstungu',
+            'title': 'Brennu-Njáls saga',
             'lang': 'is',
         },
         'pilturstulka': {
             'file': 'pilturogstulka.txt',
-            'title': 'Piltur og ipsum',
+            'title': 'Piltur og stúlka,
             'lang': 'is',
         },
         'sult': {
             'file': 'sult.txt',
-            'title': 'Sult ipsum',
+            'title': 'Sult',
             'lang': 'no',
+        },
+        'roda': {
+        	'file': 'roda.txt',
+        	'title': 'Röda rummet',
+        	'lang': 'se',
+        },
+        'ormstunga': {
+        	'file': 'ormstunga.txt',
+        	'title': 'Ormsipsum',
+        	'lang': 'is',
         },
     }
 
